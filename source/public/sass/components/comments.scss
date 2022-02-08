@@ -70,4 +70,8 @@
   font-weight: 700;
   color: #4267b2;
   padding-bottom: 5px;
+
+  @include media-exsm {
+    padding-top: 8px;
+  }
 }
