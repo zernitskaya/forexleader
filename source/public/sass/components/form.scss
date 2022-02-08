@@ -3,3 +3,19 @@
     border: 2px solid #7ed321;
     padding: 50px;
 }
+
+.form__logo-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.form__text {
+  text-align: center;
+}
+
+.form__inputs {
+  & > * {
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,51 @@
+.que {
+  padding: 30px 0;
+}
+
+.que__item {
+  display: flex;
+}
+
+.que__img-wrap {
+  margin-right: 30px;
+  width: 100%;
+  max-width: 360px;
+  flex-shrink: 0;
+}
+
+.que__img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.que__title {
+  text-align: left;
+  font-size: 30px;
+  line-height: 1.33;
+  line-height: 50px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 20px;
+  color: #4f637c;
+  margin: 0 0 20px;
+  border-bottom: 2px solid #4f637c;
+}
+
+.que__text {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: #4f637c;
+  margin: 0 0 10px;
+}
+
+.que__date {
+  font-size: 18px;
+  line-height: 1.22;
+  font-style: italic;
+  color: #4f637c;
+}
+
