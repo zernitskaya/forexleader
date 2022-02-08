@@ -13,6 +13,10 @@
 .header__logo-wrap {
     display: flex;
     align-items: center;
+
+  @include media-exsm {
+    padding-top: 8px;
+  }
 }
 
 .header__logo {
@@ -35,4 +39,8 @@
     padding-left: 10px;
     font-style: italic;
     font-weight: bolder;
+
+    @include media-exsm {
+      font-size: 28px;
+    }
 }
