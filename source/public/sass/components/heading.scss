@@ -6,4 +6,9 @@
   line-height: 1.31;
   text-align: center;
   color: #fff;
+
+
+  @include media-exsm {
+    font-size: 22px;
+  }
 }

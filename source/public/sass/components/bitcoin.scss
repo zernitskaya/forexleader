@@ -1,8 +1,12 @@
-.bitcoin {
+.bitcoin__heading {
   color: #36b100;
   padding-top: 30px;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.31;
   text-align: center;
+
+  @include media-exsm {
+    font-size: 18px;
+  }
 }

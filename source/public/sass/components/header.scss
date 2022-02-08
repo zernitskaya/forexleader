@@ -3,6 +3,11 @@
     align-items: center;
     justify-content: space-between;
     padding-left: 40px;
+
+    @include media-exsm {
+      flex-direction: column;
+      padding: 0;
+    }
 }
 
 .header__logo-wrap {
@@ -11,7 +16,7 @@
 }
 
 .header__logo {
-    height: 60px; 
+    height: 60px;
 }
 
 .header__text-wrap {
@@ -20,7 +25,7 @@
 }
 
 .header__text {
-    font-style: italic; 
+    font-style: italic;
 }
 
 .header__logo-text {
@@ -28,6 +33,6 @@
     font-size: 36px;
     color: #69c804;
     padding-left: 10px;
-    font-style: italic; 
+    font-style: italic;
     font-weight: bolder;
 }
