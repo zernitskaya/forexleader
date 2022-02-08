@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.header__logo-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    height: 60px; 
+}
+
+.header__text-wrap {
+    background-color: red;
+    padding: 20px;
+}
+
+.header__text {
+    font-style: italic; 
+}
+
+.header__logo-text {
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #69c804;
+    padding-left: 10px;
+    font-style: italic; 
+    font-weight: bolder;
+}

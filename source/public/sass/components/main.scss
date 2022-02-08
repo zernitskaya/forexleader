@@ -1,0 +1,57 @@
+.main {
+    background-image: url("../img/mainBg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.main__wrap  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.main__video-wrap {
+    width: 65%;
+}
+
+.main__form-wrap {
+    width: 35%;
+}
+
+.main__heading {
+    padding-top: 30px;
+    font-size: 36px;
+    text-shadow: 0 6px 10px #0f316d80;
+    font-weight: 700;
+    line-height: 1.31;
+    text-align: center;
+    color: #fff;
+}
+
+.main__bottom-text {
+    padding-bottom: 100px;
+}
+
+.main__text {
+    font-style: italic; 
+}
+
+.main__video-wrap {
+    width: 700px;
+    height: 418px;
+}
+
+.main__video {
+    display: block;
+    width: 100%;
+}
