@@ -4,7 +4,7 @@
   font-weight: bold;
   text-transform: uppercase;
   height: auto;
-  line-height: 50px;
+  // line-height: 50px;
   max-width: 690px;
   position: relative;
   display: block;
@@ -36,6 +36,10 @@
   width: 30px;
   background-image: url('../img/larrow.png');
   background-repeat: no-repeat;
+
+  @include media-exsm {
+    display: none;
+      }
 }
 
 .red-button__btn::after {
@@ -46,6 +50,9 @@
   height: 30px;
   width: 30px;
   background-image: url('../img/rarrow.png');
+    @include media-exsm {
+      display: none;
+    }
 }
 
 .red-button__btn:hover {
