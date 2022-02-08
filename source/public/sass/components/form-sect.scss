@@ -1,0 +1,26 @@
+.form-sect {
+  padding: 60px 0;
+  background-image: url('../img/mainBg.jpeg');
+  background-position: top center;
+  background-size: cover;
+}
+
+.form-sect__title {
+  font-size: 36px;
+  margin-bottom: 0;
+  text-shadow: 0 6px 10px rgba(12, 43, 97, 0.5);
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.form-sect__form {
+  width: 374px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
