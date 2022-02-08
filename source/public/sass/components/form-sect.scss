@@ -16,6 +16,10 @@
   letter-spacing: normal;
   text-align: center;
   color: #fff;
+
+  @include media-exsm {
+    font-size: 28px;
+  }
 }
 
 .form-sect__form {
