@@ -4,6 +4,12 @@
 
 .que__item {
   display: flex;
+
+  @include media-exsm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .que__img-wrap {
@@ -11,6 +17,10 @@
   width: 100%;
   max-width: 360px;
   flex-shrink: 0;
+
+  @include media-exsm {
+    margin: 0;
+  }
 }
 
 .que__img {
@@ -29,6 +39,11 @@
   color: #4f637c;
   margin: 0 0 20px;
   border-bottom: 2px solid #4f637c;
+
+  @include media-exsm {
+    font-size: 24px;
+    line-height: 1.33;
+  }
 }
 
 .que__text {

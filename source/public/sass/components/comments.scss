@@ -24,7 +24,11 @@
 .comments-item {
   display: flex;
   align-items: center;
-  // flex-direction: column;
+
+
+  @include media-exsm {
+    flex-direction: column;
+  }
 }
 
 .comments-item__rating-wrap {
@@ -36,6 +40,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.comments__list {
+  margin-bottom: 20px;
 }
 
 .comments__item {

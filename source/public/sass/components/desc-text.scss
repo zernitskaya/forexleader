@@ -13,6 +13,10 @@
   text-align: center;
   color: #fff;
   margin-bottom: 15px;
+
+  @include media-exsm {
+    font-size: 26px;
+  }
 }
 
 .desc-text__text {

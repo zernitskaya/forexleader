@@ -14,6 +14,11 @@
   font-style: normal;
   font-size: 36px;
   margin-bottom: 20px;
+
+
+  @include media-exsm {
+    font-size: 28px;
+  }
 }
 
 .advantages__text {
@@ -32,6 +37,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
+
+
+  @include media-exsm {
+    grid-template-columns: 1fr;
+  }
 }
 
 .advantages-item {
