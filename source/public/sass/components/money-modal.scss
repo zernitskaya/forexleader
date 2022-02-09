@@ -1,0 +1,23 @@
+.money-modal__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  position: fixed;
+  z-index: 99999;
+  // display: none;
+  left: 0;
+  bottom: 30px;
+  padding: 6px 11px;
+  min-width: 240px;
+  font-size: 20px;
+  object-fit: contain;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background-color: #203041;
+  border: 2px solid #7ed321;
+}
+
+.money-modal__value {
+  color: #7ed321;
+}
