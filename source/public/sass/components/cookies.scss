@@ -1,0 +1,155 @@
+.cookies-panel {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background: #333;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+
+  @include media-exsm {
+    height: auto;
+  }
+}
+
+.cookies-panel__wrap {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  height: 100%;
+
+  @include media-exsm {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.cookies-panel__text {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 8px;
+
+  @include media-exsm {
+    font-size: 16px;
+  }
+}
+
+.cookies-panel__vtns {
+  display: flex;
+
+  @include media-exsm {
+    order: -1;
+    margin-bottom: 10px;
+  }
+}
+
+.cookies-panel__btn1 {
+  @include active;
+  background: #0033bb;
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 0 6px;
+  line-height: 22px;
+  font-size: 17px;
+  width: 140px;
+  text-align: center;
+  margin-right: 8px;
+}
+
+.cookies-panel__btn2 {
+  @include active;
+  background: #007700;
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 0 6px;
+  margin-left: 8px;
+  line-height: 22px;
+  font-size: 17px;
+  width: 100px;
+  text-align: center;
+
+  @include hover {
+    background: #f89b08;
+  }
+}
+
+.info-coockies {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+.info-coockies__overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.info-coockies__content-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.4;
+
+  @include media-exsm {
+    width: calc(100% - 20px);
+  }
+}
+
+.info-coockies__content-csroll {
+  overflow: auto;
+  height: 100%;
+  padding: 40px;
+
+  @include media-exsm {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+}
+
+.info-coockies__text > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.info-coockies__title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.info-coockies__close {
+  @include active;
+  position: absolute;
+  right: 40px;
+  top: 20px;
+  cursor: pointer;
+  z-index: 5;
+  color: #000;
+  font-size: 16px;
+
+  @include media-exsm {
+    right: 15px;
+    top: 15px;
+  }
+}
